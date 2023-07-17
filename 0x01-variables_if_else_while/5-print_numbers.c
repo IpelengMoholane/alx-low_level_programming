@@ -1,23 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
- * 
- * Return: Always 0 (success)
+ * main - main function
+ *
+ * Return: always 0
  */
 
 int main(void)
 {
-	int num;
+	int i;
 
-	while (num < 10)
-{
-	printf("%d", num);
-
-	num += 1;
-
-}
+	for (i = 0; i < 10 ; i++)
+		printf("%d", i);
 	printf("\n");
-
 	return (0);
 }
